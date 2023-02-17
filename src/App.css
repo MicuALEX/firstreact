@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
+  background-color: azure;
 }
 
 .App-logo {
@@ -15,7 +18,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 931px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +35,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
